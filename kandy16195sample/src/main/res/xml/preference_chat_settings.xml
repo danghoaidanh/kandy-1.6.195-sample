@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/preference_category_files" >
+        
+        <EditTextPreference
+            android:dialogTitle="@string/dialog_download_path_title"
+            android:dialogMessage="Set the path for download media"
+            android:key="download_path_preference"
+            android:title="@string/preference_download_path_title" />
+
+        <CheckBoxPreference
+            android:title="@string/preference_download_custom_path_title"
+            android:key="download_custom_path_preferences"/>
+        
+        <com.kandy.starter.utils.MediaSizePicker
+           android:dialogTitle="@string/dialog_max_size_title"
+            android:dialogMessage="@string/dialog_download_path_msg"
+            android:key="media_size_picker_preference"
+            android:title="@string/preference_max_size_title" />
+        
+         <ListPreference
+            android:dialogTitle="@string/dialog_auto_download_thumbnail_size_preference_title"
+            android:entries="@array/auto_download_thumbnail_size_preference_entries_list_preference"
+            android:entryValues="@array/auto_download_thumbnail_size_preference_entry_values_list_preference"
+            android:key="auto_download_thumbnail_size_preference"
+            android:title="@string/auto_download_thumbnail_size_preference_title" />
+        
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preference_category_policy" >
+        
+        <ListPreference
+            android:dialogTitle="@string/dialog_download_policy_title"
+            android:entries="@array/entries_list_preference"
+            android:entryValues="@array/entry_values_list_preference"
+            android:key="download_policy_preference"
+            android:title="@string/preference_download_policy_title" />
+    
+    </PreferenceCategory>
+
+</PreferenceScreen>

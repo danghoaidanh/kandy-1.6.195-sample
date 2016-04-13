@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.kandy.starter.AddressBookActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center" >
+
+        <CheckBox
+            android:id="@+id/radioButton_emails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Emails" />
+
+        <CheckBox
+            android:id="@+id/radioButton_phones"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phones" />
+
+        <CheckBox
+            android:id="@+id/radioButton_favorite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Favorite" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </ListView>
+
+    <TextView
+        android:id="@android:id/empty"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="No contacts" />
+
+</LinearLayout>

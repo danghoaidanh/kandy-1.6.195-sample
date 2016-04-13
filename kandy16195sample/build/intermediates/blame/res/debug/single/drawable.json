@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/build/intermediates/res/merged/debug/drawable/button_background.xml",
+        "source": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/src/main/res/drawable/button_background.xml"
+    },
+    {
+        "merged": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/build/intermediates/res/merged/debug/drawable/drawable_hold.xml",
+        "source": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/src/main/res/drawable/drawable_hold.xml"
+    },
+    {
+        "merged": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/build/intermediates/res/merged/debug/drawable/chat_action_audio_selector.xml",
+        "source": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/src/main/res/drawable/chat_action_audio_selector.xml"
+    },
+    {
+        "merged": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/build/intermediates/res/merged/debug/drawable/drawable_mute.xml",
+        "source": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/src/main/res/drawable/drawable_mute.xml"
+    },
+    {
+        "merged": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/build/intermediates/res/merged/debug/drawable/chat_action_video_selector.xml",
+        "source": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/src/main/res/drawable/chat_action_video_selector.xml"
+    },
+    {
+        "merged": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/build/intermediates/res/merged/debug/drawable/rectangle_border_background_pressed.xml",
+        "source": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/src/main/res/drawable/rectangle_border_background_pressed.xml"
+    },
+    {
+        "merged": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/build/intermediates/res/merged/debug/drawable/chat_action_location_selector.xml",
+        "source": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/src/main/res/drawable/chat_action_location_selector.xml"
+    },
+    {
+        "merged": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/build/intermediates/res/merged/debug/drawable/rectangle_border_background.xml",
+        "source": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/src/main/res/drawable/rectangle_border_background.xml"
+    },
+    {
+        "merged": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/build/intermediates/res/merged/debug/drawable/chat_action_btn_selector.xml",
+        "source": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/src/main/res/drawable/chat_action_btn_selector.xml"
+    },
+    {
+        "merged": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/build/intermediates/res/merged/debug/drawable/chat_action_image_selector.xml",
+        "source": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/src/main/res/drawable/chat_action_image_selector.xml"
+    },
+    {
+        "merged": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/build/intermediates/res/merged/debug/drawable/chat_action_contact_selector.xml",
+        "source": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/src/main/res/drawable/chat_action_contact_selector.xml"
+    },
+    {
+        "merged": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/build/intermediates/res/merged/debug/drawable/chat_action_file_selector.xml",
+        "source": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/src/main/res/drawable/chat_action_file_selector.xml"
+    }
+]

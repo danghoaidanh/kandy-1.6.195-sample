@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/src/main/jniLibs"><file name="armeabi/libjingle_peerconnection_so.so" path="/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/src/main/jniLibs/armeabi/libjingle_peerconnection_so.so"/></source></dataSet><dataSet config="debug"><source path="/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/src/debug/jniLibs"/></dataSet></merger>

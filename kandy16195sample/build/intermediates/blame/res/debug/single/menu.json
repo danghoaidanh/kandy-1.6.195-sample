@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/build/intermediates/res/merged/debug/menu/api_settings_menu.xml",
+        "source": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/src/main/res/menu/api_settings_menu.xml"
+    },
+    {
+        "merged": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/build/intermediates/res/merged/debug/menu/chat_menu.xml",
+        "source": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/src/main/res/menu/chat_menu.xml"
+    },
+    {
+        "merged": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/build/intermediates/res/merged/debug/menu/group_settings.xml",
+        "source": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/src/main/res/menu/group_settings.xml"
+    },
+    {
+        "merged": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/build/intermediates/res/merged/debug/menu/call_menu.xml",
+        "source": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/src/main/res/menu/call_menu.xml"
+    }
+]

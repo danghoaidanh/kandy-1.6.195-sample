@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/build/intermediates/res/merged/debug/xml/preference_chat_settings.xml",
+        "source": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/src/main/res/xml/preference_chat_settings.xml"
+    },
+    {
+        "merged": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/build/intermediates/res/merged/debug/xml/preference_call_settings.xml",
+        "source": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/src/main/res/xml/preference_call_settings.xml"
+    }
+]

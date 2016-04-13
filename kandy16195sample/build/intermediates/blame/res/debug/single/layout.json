@@ -1,0 +1,94 @@
+[
+    {
+        "merged": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/build/intermediates/res/merged/debug/layout/activity_multi_party_converrence_calls.xml",
+        "source": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/src/main/res/layout/activity_multi_party_converrence_calls.xml"
+    },
+    {
+        "merged": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/build/intermediates/res/merged/debug/layout/activity_login.xml",
+        "source": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/build/intermediates/res/merged/debug/layout/activity_group_details.xml",
+        "source": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/src/main/res/layout/activity_group_details.xml"
+    },
+    {
+        "merged": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/build/intermediates/res/merged/debug/layout/numberpicker_dialog.xml",
+        "source": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/src/main/res/layout/numberpicker_dialog.xml"
+    },
+    {
+        "merged": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/build/intermediates/res/merged/debug/layout/activity_location.xml",
+        "source": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/src/main/res/layout/activity_location.xml"
+    },
+    {
+        "merged": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/build/intermediates/res/merged/debug/layout/activity_chats.xml",
+        "source": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/src/main/res/layout/activity_chats.xml"
+    },
+    {
+        "merged": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/build/intermediates/res/merged/debug/layout/list_item_device_addressbook.xml",
+        "source": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/src/main/res/layout/list_item_device_addressbook.xml"
+    },
+    {
+        "merged": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/build/intermediates/res/merged/debug/layout/activity_kandy_groups.xml",
+        "source": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/src/main/res/layout/activity_kandy_groups.xml"
+    },
+    {
+        "merged": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/build/intermediates/res/merged/debug/layout/group_list_item.xml",
+        "source": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/src/main/res/layout/group_list_item.xml"
+    },
+    {
+        "merged": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/build/intermediates/res/merged/debug/layout/activity_addressbook.xml",
+        "source": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/src/main/res/layout/activity_addressbook.xml"
+    },
+    {
+        "merged": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/build/intermediates/res/merged/debug/layout/activity_calls.xml",
+        "source": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/src/main/res/layout/activity_calls.xml"
+    },
+    {
+        "merged": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/build/intermediates/res/merged/debug/layout/activity_device_addressbook.xml",
+        "source": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/src/main/res/layout/activity_device_addressbook.xml"
+    },
+    {
+        "merged": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/build/intermediates/res/merged/debug/layout/activity_apisettings.xml",
+        "source": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/src/main/res/layout/activity_apisettings.xml"
+    },
+    {
+        "merged": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/build/intermediates/res/merged/debug/layout/participant_list_item.xml",
+        "source": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/src/main/res/layout/participant_list_item.xml"
+    },
+    {
+        "merged": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/build/intermediates/res/merged/debug/layout/activity_chat_settings.xml",
+        "source": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/src/main/res/layout/activity_chat_settings.xml"
+    },
+    {
+        "merged": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/build/intermediates/res/merged/debug/layout/activity_multi_party_conference.xml",
+        "source": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/src/main/res/layout/activity_multi_party_conference.xml"
+    },
+    {
+        "merged": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/build/intermediates/res/merged/debug/layout/message_listview_item.xml",
+        "source": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/src/main/res/layout/message_listview_item.xml"
+    },
+    {
+        "merged": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/build/intermediates/res/merged/debug/layout/activity_signup.xml",
+        "source": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/src/main/res/layout/activity_signup.xml"
+    },
+    {
+        "merged": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/build/intermediates/res/merged/debug/layout/activity_presence.xml",
+        "source": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/src/main/res/layout/activity_presence.xml"
+    },
+    {
+        "merged": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/build/intermediates/res/merged/debug/layout/activity_cloud_storage.xml",
+        "source": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/src/main/res/layout/activity_cloud_storage.xml"
+    },
+    {
+        "merged": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/build/intermediates/res/merged/debug/layout/activity_directory_address_book.xml",
+        "source": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/src/main/res/layout/activity_directory_address_book.xml"
+    },
+    {
+        "merged": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/build/intermediates/res/merged/debug/layout/activity_push.xml",
+        "source": "/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/src/main/res/layout/activity_push.xml"
+    }
+]

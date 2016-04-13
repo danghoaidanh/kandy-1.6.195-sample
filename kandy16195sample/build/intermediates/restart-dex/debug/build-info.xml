@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86,armeabi-v7a"
+    api-level="17"
+    density="xhdpi"
+    format="7"
+    timestamp="10916263642060" >
+
+    <task
+        name="javac"
+        duration="843" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="590" />
+    <task
+        name="verifier"
+        duration="92" />
+
+    <artifact
+        location="/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/build/outputs/apk/kandy16195sample-debug.apk"
+        type="MAIN" />
+
+    <build timestamp="10916263642060" >
+        <artifact
+            location="/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/build/outputs/apk/kandy16195sample-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

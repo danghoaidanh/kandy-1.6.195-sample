@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kandy.starter"
+    android:versionCode="277"
+    android:versionName="1.6.277" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="19" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <permission
+        android:name="com.kandy.starter.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <!-- must -->
+    <uses-permission android:name="com.kandy.starter.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+
+    <application
+        name="com.kandy.starter.KandySampleApplication"
+        android:name="com.android.tools.fd.runtime.BootstrapApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.Light" >
+        <service
+            android:name="com.genband.mobile.impl.services.registration.GeneralRenewalAndroidService"
+            android:enabled="true" >
+        </service>
+        <service
+            android:name="com.genband.mobile.core.NotificationEngine.NotificationAndroidService"
+            android:enabled="true" >
+        </service>
+
+        <activity
+            android:name="com.kandy.starter.APISettingsActivity"
+            android:label="@string/title_activity_api_settings"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.kandy.starter.DashboardActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kandy.starter.ProvisioningActivity"
+            android:label="@string/title_activity_signup"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.kandy.starter.AccessActivity"
+            android:label="@string/title_activity_login"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.kandy.starter.CallServiceActivity"
+            android:label="@string/title_activity_calls"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.kandy.starter.ChatServiceActivity"
+            android:label="@string/title_activity_chats"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.kandy.starter.LocationServiceActivity"
+            android:label="@string/title_activity_location"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.kandy.starter.PresenceServiceActivity"
+            android:label="@string/title_activity_presence"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.kandy.starter.PushServiceActivity"
+            android:label="@string/title_activity_push"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <receiver
+            android:name="com.kandy.starter.push.KandyPushReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="com.example.kandysdktester" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.kandy.starter.push.KandyPushService"
+            android:enabled="true" />
+
+        <activity
+            android:name="com.kandy.starter.AddressBookActivity"
+            android:label="@string/title_activity_addressbook"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.kandy.starter.DeviceAddressBookActivity"
+            android:label="@string/title_activity_deviceaddressbook"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.kandy.starter.ChatSettingsActivity"
+            android:label="@string/title_activity_chat_settings"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.kandy.starter.DirectoryAddressBookActivity"
+            android:label="@string/title_activity_directory_address_book"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.kandy.starter.KandyGroupsActivity"
+            android:label="@string/title_activity_kandy_groups"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.kandy.starter.GroupDetailsActivity"
+            android:label="@string/title_activity_group_settings"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.kandy.starter.CallSettingsActivity"
+            android:label="@string/title_activity_call_settings"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.kandy.starter.KandyCloudStorageServiceActivity"
+            android:label="@string/title_activity_cloud_storage"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.kandy.starter.MultiPartyConferenceActivity"
+            android:label="@string/title_activity_multi_party_conference"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.kandy.starter.MultiPartyConferenceCallScreenActivity"
+            android:label="@string/title_activity_multi_party_conference"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

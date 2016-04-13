@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/preference_category_camera" >
+        
+        <ListPreference
+            android:dialogTitle="@string/dialog_camera_facing_title"
+            android:entries="@array/camera_facing_preference_entry_list_preference"
+            android:entryValues="@array/camera_facing_preference_entry_values_list_preference"
+            android:key="camera_facing_preference"
+            android:title="@string/preference_camera_facing_title" />
+    
+    </PreferenceCategory>
+
+</PreferenceScreen>

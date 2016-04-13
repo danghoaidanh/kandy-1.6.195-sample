@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/libs/gcm.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c62336e408d6dc3998013f3a4419f1895ad61b6b">
+        <dex dex="/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/build/intermediates/pre-dexed/debug/gcm_df93e901d390db56374a6833f4e7ae827e121cc4.jar" />
+    </item>
+    <item
+        jar="/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/libs/kandy-1.6.195.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="b8d88a27af87559edbb02303a2291b40b8d5972d">
+        <dex dex="/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/build/intermediates/pre-dexed/debug/kandy-1.6.195_34575f7fbe6f5c8f5d977a35610dbdfcdcfdb8d1.jar" />
+    </item>
+    <item
+        jar="/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4fd4f3c33a48afed6640887e691c4284b73774f9">
+        <dex dex="/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/build/intermediates/pre-dexed/debug/instant-run-bootstrap_365961760419d2e0b16d2736c21e8241841b636a.jar" />
+    </item>
+    <item
+        jar="/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="9c308fdf153b5a7f3c07f9e2300c79485465b5bd">
+        <dex dex="/Users/young/AndroidStudioProjects/kandy-1.6.195-sample1/kandy16195sample/build/intermediates/pre-dexed/debug/instant-run_8aa4482dddc0880d4fa0e810a973da2c8a255ce5.jar" />
+    </item>
+
+</items>

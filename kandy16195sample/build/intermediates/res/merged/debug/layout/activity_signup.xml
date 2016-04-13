@@ -1,0 +1,127 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kandy.starter.ProvisioningActivity" >
+
+    <ScrollView
+        android:id="@+id/activity_signup_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/activity_signup_api_key_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/activity_signup_key_api_label"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/activity_signup_api_key_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Go to www.kandy.io to create your key" />
+
+            <TextView
+                android:id="@+id/activity_signup_api_secret_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/activity_signup_key_api_secret_label"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/activity_signup_api_secret_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Go to www.kandy.io to create your key" />
+
+            <EditText
+                android:id="@+id/activity_signup_phone_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:ems="15"
+                android:hint="@string/activity_signup_phone_edit_hint"
+                android:inputType="phone" />
+
+            <Button
+                android:id="@+id/activity_signup_signup_button"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/chat_action_btn_selector"
+                android:text="@string/activity_signup_signup_button_label" />
+            
+
+            <Button
+                android:id="@+id/activity_signup_ivr_signup_button"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/chat_action_btn_selector"
+                android:text="@string/activity_signup_ivr_signup_button_label" />
+
+            <EditText
+                android:id="@+id/activity_signup_otp_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:ems="4"
+                android:hint="@string/activity_signup_otp_edit_hint"
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/activity_signup_otp_button"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/chat_action_btn_selector"
+                android:text="@string/activity_signup_validate_button_label" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/activity_signup_signed_as_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/activity_signup_signed_as_label" />
+
+                <TextView
+                    android:id="@+id/activity_signup_signed_as_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/activity_signup_signoff_button"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/chat_action_btn_selector"
+                android:text="@string/activity_signup_signoff_button_label" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

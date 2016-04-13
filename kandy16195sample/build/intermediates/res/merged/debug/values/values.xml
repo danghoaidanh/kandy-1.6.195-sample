@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="auto_download_thumbnail_size_preference_entries_list_preference">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+    <string-array name="auto_download_thumbnail_size_preference_entry_values_list_preference">
+        <item>SMALL</item>
+        <item>MEDIUM</item>
+        <item>LARGE</item>
+    </string-array>
+    <string-array name="camera_facing_preference_entry_list_preference">
+        <item>Back</item>
+        <item>Front</item>
+    </string-array>
+    <string-array name="camera_facing_preference_entry_values_list_preference">
+        <item>FACING_BACK</item>
+        <item>FACING_FRONT</item>
+    </string-array>
+    <string-array name="entries_list_preference">
+        <item>Disabled</item>
+        <item>Only Mobile</item>
+        <item>Only WiFi</item>
+        <item>Always</item>
+    </string-array>
+    <string-array name="entry_values_list_preference">
+        <item>NONE</item>
+        <item>MOBILE</item>
+        <item>WIFI</item>
+        <item>ALL</item>
+    </string-array>
+    <color name="activity_call_camera_view_lable_background">#20000000</color>
+    <color name="registration_state_background">#cc0000ff</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="action_cloud_storage_download">Download</string>
+    <string name="action_cloud_storage_upload">Upload</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_settings_destroy">Destroy Group</string>
+    <string name="action_settings_leave">Leave Group</string>
+    <string name="action_settings_mute">(Un)Mute Group</string>
+    <string name="activirty_chats_get_incoming_msgs_button_label">Get Pending Messages</string>
+    <string name="activity_api_settings_set_api_key_button_label">Set</string>
+    <string name="activity_api_settings_set_api_key_edit_hint">Enter API Key</string>
+    <string name="activity_api_settings_set_api_secret_button_label">Set</string>
+    <string name="activity_api_settings_set_api_secret_edit_hint">Enter API Secret</string>
+    <string name="activity_api_settings_set_kandy_host_button_label">Set</string>
+    <string name="activity_api_settings_set_kandy_host_edit_hint">Enter Kandy Host</string>
+    <string name="activity_api_settings_set_kandy_power_saver_enabled">Enable power saving mode</string>
+    <string name="activity_cahts_message_empty_message">Please enter message text to be sent</string>
+    <string name="activity_cahts_message_invalid_phone">Invalid phone number, The phone number must be an E164 formatted number</string>
+    <string name="activity_cahts_message_invalid_title">Invalid SMS</string>
+    <string name="activity_cahts_message_sent_label">Message sent</string>
+    <string name="activity_call_local_camera_view_lable">Local</string>
+    <string name="activity_call_remote_camera_view_lable">Remote</string>
+    <string name="activity_calls_answer_button_label">Answer</string>
+    <string name="activity_calls_attention_title_text">!!! ATTENTION !!!</string>
+    <string name="activity_calls_audio_state">Audio isMute:</string>
+    <string name="activity_calls_call_button_label">Call</string>
+    <string name="activity_calls_checkbox_label">Start with video</string>
+    <string name="activity_calls_full_user_id_message_text">Enter full destination user id (userID@domain.com)</string>
+    <string name="activity_calls_hangup_button_label">Hangup</string>
+    <string name="activity_calls_hold_label">Hold</string>
+    <string name="activity_calls_ignore_incoming_call_button_label">Ignore</string>
+    <string name="activity_calls_incoming_call_popup_message_label">Incoming call from:</string>
+    <string name="activity_calls_invalid_domain_text_msg">Wrong domain</string>
+    <string name="activity_calls_invalid_hangup_text_msg">No active calls</string>
+    <string name="activity_calls_invalid_hold_text_msg">Can not hold - No Active Call</string>
+    <string name="activity_calls_invalid_mute_call_text_msg">Can not mute - No active calls</string>
+    <string name="activity_calls_invalid_phone_text_msg">Invalid recipient (recipientID@domain.com)</string>
+    <string name="activity_calls_invalid_video_call_text_msg">Can not enable/disable video - No active calls</string>
+    <string name="activity_calls_local_video_label">Local video</string>
+    <string name="activity_calls_mute_label">Mute</string>
+    <string name="activity_calls_novideo_label">No Video</string>
+    <string name="activity_calls_phone_number_hint">userID@domain.com</string>
+    <string name="activity_calls_pstn_checkbox_label">Start PSTN call</string>
+    <string name="activity_calls_receiving_video_state">Receiving video:</string>
+    <string name="activity_calls_reject_incoming_call_button_label">Reject</string>
+    <string name="activity_calls_remote_video_label">Remote video</string>
+    <string name="activity_calls_sending_video_state">Sending video:</string>
+    <string name="activity_calls_sip_trunk_checkbox_label">Start call trough SIP Trunk</string>
+    <string name="activity_calls_state_audio_label">Audio state</string>
+    <string name="activity_calls_state_calls_label">Calls state</string>
+    <string name="activity_calls_state_video_label">Video state</string>
+    <string name="activity_calls_unhold_label">Unhold</string>
+    <string name="activity_calls_unmute_label">Unmute</string>
+    <string name="activity_calls_video_label">Video</string>
+    <string name="activity_chat_ack_label">Mark message as received</string>
+    <string name="activity_chat_message_hint_text">Message</string>
+    <string name="activity_chat_phone_number_domain_verification_text">Invalid recipient, please enter username with domain(userID@domain.com)</string>
+    <string name="activity_chat_phone_number_hint_text">recipient@domain.com</string>
+    <string name="activity_chat_phone_number_verification_text">Invalid recipient\'s number (recipientID@domain.com)</string>
+    <string name="activity_chat_pull_desc">Will refresh pending messages from Kandy services</string>
+    <string name="activity_chat_pull_label">Pull</string>
+    <string name="activity_chat_send_button_label">Send</string>
+    <string name="activity_chat_sms_label">Will send SMS via Kandy services</string>
+    <string name="activity_chats_message_click_menu_ack">Mark as received</string>
+    <string name="activity_chats_message_click_menu_cancel">Dismiss</string>
+    <string name="activity_chats_message_click_menu_cancel_download">Cancel Download</string>
+    <string name="activity_chats_message_click_menu_title">Message Action:</string>
+    <string name="activity_chats_message_click_menu_view">View message</string>
+    <string name="activity_chatsend_sms_label">Send SMS</string>
+    <string name="activity_directory_ab_progress_get_all_contacts">Getting domain addressbook, please wait...</string>
+    <string name="activity_directory_ab_progress_search_contacts">Searching in domain addressbook: </string>
+    <string name="activity_loaction_get_button_label">Get Code</string>
+    <string name="activity_loaction_got_location_toast_text">Got Location</string>
+    <string name="activity_loaction_two_letter_code_none">None</string>
+    <string name="activity_location_code_text">Country Code:</string>
+    <string name="activity_location_location_label">Two letter country code:</string>
+    <string name="activity_location_long_name_label">Contry Long name:</string>
+    <string name="activity_login_domain_hint_label">Domain</string>
+    <string name="activity_login_empty_domain_text">Enter domain</string>
+    <string name="activity_login_empty_password_text">Enter password</string>
+    <string name="activity_login_empty_username_text">Invalid username (userID@domain.com)</string>
+    <string name="activity_login_failed_popup_message_label">Invalid credentials</string>
+    <string name="activity_login_failed_popup_title_label">Login Failed</string>
+    <string name="activity_login_login_button_label">Login</string>
+    <string name="activity_login_login_process">Login, please wait...</string>
+    <string name="activity_login_login_success">Login succeed</string>
+    <string name="activity_login_logout_button_label">Logout</string>
+    <string name="activity_login_logout_process">Logout, please wait...</string>
+    <string name="activity_login_logout_success">Logout succeed</string>
+    <string name="activity_login_password_hint_label">Password</string>
+    <string name="activity_login_userid_failed">You have not user id - do signup before login</string>
+    <string name="activity_login_username_hint_label">userID@domain.com</string>
+    <string name="activity_main_registration_state_label">Registration State</string>
+    <string name="activity_main_title">Dashboard</string>
+    <string name="activity_presence_phone_number_hint">recipientID@domain.com</string>
+    <string name="activity_presence_presence_label">Last Seen:</string>
+    <string name="activity_presence_retrieve_button_label">Retrieve Once</string>
+    <string name="activity_presence_stop_watch_button_label">Stop</string>
+    <string name="activity_presence_watch_button_label">Watch</string>
+    <string name="activity_presence_watch_for_label">Watch for:</string>
+    <string name="activity_push_disable_button_label">Disable Push Service</string>
+    <string name="activity_push_enable_button_label">Enable Push Service</string>
+    <string name="activity_push_state_default_label">Push Service State</string>
+    <string name="activity_push_state_disabled_label">Push Service Disabled</string>
+    <string name="activity_push_state_enabled_label">Push Service Enabled</string>
+    <string name="activity_settings_key_api_label">Key:</string>
+    <string name="activity_settings_secret_label">Secret:</string>
+    <string name="activity_signup_enter_otp_label">"Enter OTP code</string>
+    <string name="activity_signup_enter_phone_label">Enter phone number</string>
+    <string name="activity_signup_ivr_signup_button_label">Request Code by Call</string>
+    <string name="activity_signup_ivr_signup_dialog_title">IVR Signup Succeed</string>
+    <string name="activity_signup_ivr_signup_succeed">Your activation code is:</string>
+    <string name="activity_signup_key_api_label">Your API KEY</string>
+    <string name="activity_signup_key_api_secret_label">Your API Secret</string>
+    <string name="activity_signup_otp_edit_hint">Enter the OTP code</string>
+    <string name="activity_signup_phone_edit_hint">Enter your number</string>
+    <string name="activity_signup_signed_as_label">Signed as:</string>
+    <string name="activity_signup_signoff_button_label">Deactivate</string>
+    <string name="activity_signup_signoff_succeed_label">Signoff succeed</string>
+    <string name="activity_signup_signup_button_label">Request Code</string>
+    <string name="activity_signup_signup_succeed">SMS code sent to you</string>
+    <string name="activity_signup_validate_button_label">Validate</string>
+    <string name="activity_signup_validation_succeed_title">Validation succeed</string>
+    <string name="app_name">Kandy Starter</string>
+    <string name="auto_download_thumbnail_size_preference_title">Auto download thumbanil size</string>
+    <string name="chat_settings_max_size_msg">Maximal upload file size: %d MB</string>
+    <string name="cloud_storage_download_failed">Download failed!!!</string>
+    <string name="cloud_storage_download_file">Downloading ...</string>
+    <string name="cloud_storage_download_suceeded">Download succeeded!!! \n File saved at $1%s</string>
+    <string name="cloud_storage_empty_target">Select file from list bellow to upload</string>
+    <string name="cloud_storage_transfer_faild">File transfer cancel failed</string>
+    <string name="cloud_storage_transfer_succeeded">File transfer canceled</string>
+    <string name="cloud_storage_upload_failed">Upload failed</string>
+    <string name="cloud_storage_upload_suceeded">Upload succeeded!!!</string>
+    <string name="cloud_storage_uploding_file">Uploading...</string>
+    <string name="dialog_auto_download_thumbnail_size_preference_title">Auto download thumbanil size</string>
+    <string name="dialog_camera_facing_title">Choose Default Mode</string>
+    <string name="dialog_download_path_msg">Set the path for download media</string>
+    <string name="dialog_download_path_title">Set Download Path</string>
+    <string name="dialog_download_policy_msg">Select method for downloading media files</string>
+    <string name="dialog_download_policy_title">Chose Download Policy</string>
+    <string name="dialog_max_size_msg">Set maximal size(in MB) for uploading files</string>
+    <string name="dialog_max_size_title">Maximal size for uploaded media files</string>
+    <string name="error_msg_no_downloaded_media">No downloaded media</string>
+    <string name="groups_list_activity_add_new_group">Create</string>
+    <string name="groups_list_activity_create_group_msg">Creating group, please wait...</string>
+    <string name="groups_list_activity_enter_group_name_hint">Enter Group Name</string>
+    <string name="groups_list_activity_get_groups_msg">Getting groups, please wait...</string>
+    <string name="groups_list_activity_group_created">Group has been created</string>
+    <string name="groups_list_activity_participant_added_msg">Participant has been added</string>
+    <string name="groups_settings_activity_action_getting_group_data">Getting the selected group\'s data</string>
+    <string name="groups_settings_activity_action_group_data_got">Got the group</string>
+    <string name="groups_settings_activity_action_group_destroyed">You\'ve destroyed the group</string>
+    <string name="groups_settings_activity_action_group_kicked">You\'ve kicked out of the group</string>
+    <string name="groups_settings_activity_action_group_left">You\'ve left the group</string>
+    <string name="groups_settings_activity_action_group_muted">You\'ve muted the group</string>
+    <string name="groups_settings_activity_action_group_name_changed">Group name has been changed</string>
+    <string name="groups_settings_activity_action_group_unmuted">You\'ve unmuted the group</string>
+    <string name="groups_settings_activity_action_image_action_msg">Image actions</string>
+    <string name="groups_settings_activity_action_image_has_been_changed">Image has been changed</string>
+    <string name="groups_settings_activity_action_image_has_been_removed">Image has been removed</string>
+    <string name="groups_settings_activity_action_no_group_image">No group image</string>
+    <string name="groups_settings_activity_action_participant_action_msg">Participant actions</string>
+    <string name="groups_settings_activity_action_participant_muted">Participant has been muted</string>
+    <string name="groups_settings_activity_action_participant_removed">Participant has been removed</string>
+    <string name="groups_settings_activity_action_participant_unmuted">Participant has been unmuted</string>
+    <string name="groups_settings_activity_action_settings_applying_msg">Applying action...</string>
+    <string name="groups_settings_activity_action_updating_group_image_">Updating group image...</string>
+    <string name="groups_settings_activity_action_updating_group_name_">Updating group name...</string>
+    <string name="groups_settings_activity_add_participant_btn">Add</string>
+    <string name="groups_settings_activity_chat_btn">Chat Room</string>
+    <string name="groups_settings_activity_group_name_label">Group Name:</string>
+    <string name="groups_settings_activity_menu_destroy_group">Destroy Group</string>
+    <string name="groups_settings_activity_menu_edit_img">Edit Group Image</string>
+    <string name="groups_settings_activity_menu_edit_name">Edit Group Name</string>
+    <string name="groups_settings_activity_menu_leave_group">Leave Group</string>
+    <string name="groups_settings_activity_menu_mute_group">Mute Group</string>
+    <string name="groups_settings_activity_menu_unmute_group">Unmute Group</string>
+    <string name="groups_settings_activity_participants_admin_label">Admin:</string>
+    <string name="groups_settings_activity_participants_hint">participant@domain</string>
+    <string name="groups_settings_activity_participants_label">Participants:</string>
+    <string name="groups_settings_activity_participants_muted_label">Muted:</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="loading">loading ...</string>
+    <string name="menu_api_settings_label">Settings</string>
+    <string name="menu_call_settings_label">Call Settings</string>
+    <string name="menu_chat_settings_label">Chat Settings</string>
+    <string name="msg_pull_events">Pulling pending events...</string>
+    <string name="msg_pull_events_succeed">Pulling pending events succeed</string>
+    <string name="msg_upload_succeed">Upload succeed</string>
+    <string name="msg_uploading_audio">Uploading audio file</string>
+    <string name="msg_uploading_contact">Uploading contact vCard</string>
+    <string name="msg_uploading_image">Uploading image file</string>
+    <string name="msg_uploading_video">Uploading video file</string>
+    <string name="multi_party_conference_add_invite_chat">Chat</string>
+    <string name="multi_party_conference_add_invite_email">Email</string>
+    <string name="multi_party_conference_add_invite_sms">SMS</string>
+    <string name="multi_party_conference_add_invitees_btn">Add</string>
+    <string name="multi_party_conference_calls_action_change_name_btn">Change Name</string>
+    <string name="multi_party_conference_calls_action_change_name_hint">Enter nickname</string>
+    <string name="multi_party_conference_calls_action_disable_video_btn">Disable Video</string>
+    <string name="multi_party_conference_calls_action_enable_video_btn">Enable Video</string>
+    <string name="multi_party_conference_calls_action_hold_btn">Hold</string>
+    <string name="multi_party_conference_calls_action_info_conference_btn">Info</string>
+    <string name="multi_party_conference_calls_action_invite_participant_btn">Invite</string>
+    <string name="multi_party_conference_calls_action_invite_participant_hint">user_name@domain</string>
+    <string name="multi_party_conference_calls_action_mute_btn">Mute</string>
+    <string name="multi_party_conference_calls_action_remove_participent_btn">Remove User</string>
+    <string name="multi_party_conference_calls_action_unhold_btn">UnHold</string>
+    <string name="multi_party_conference_calls_action_unmute_btn">UnMute</string>
+    <string name="multi_party_conference_calls_actions_label">Multi Party Conference Control Actions</string>
+    <string name="multi_party_conference_create_conference_message_dialog">Creating conference room and inviting participants</string>
+    <string name="multi_party_conference_current_invitees_label">Current Invitees</string>
+    <string name="multi_party_conference_invalid_invitee">Invalid invitee type (inviteeID@domain.com) or phone number or email</string>
+    <string name="multi_party_conference_invite_by_label">Invite by:</string>
+    <string name="multi_party_conference_invitees_hint">user_name@domain</string>
+    <string name="multi_party_conference_invitees_label">Add Invitees:</string>
+    <string name="multi_party_conference_nickname_hint">Enter nickname</string>
+    <string name="multi_party_conference_nickname_label">Nickname:</string>
+    <string name="multi_party_conference_start_call_button">Start Conference Call</string>
+    <string name="multi_party_conference_start_call_with_speaker_label">Start call with speaker</string>
+    <string name="multi_party_conference_start_call_with_video_label">Start call with video</string>
+    <string name="not_supported_yet">Not supported yet</string>
+    <string name="preference_camera_facing_title">Camera facing mode</string>
+    <string name="preference_category_camera">Camera Preferences</string>
+    <string name="preference_category_files">Media Files Preferences </string>
+    <string name="preference_category_policy">Download policy</string>
+    <string name="preference_download_custom_path_title">Custom path for downloaded media</string>
+    <string name="preference_download_path_title">Path for downloaded media</string>
+    <string name="preference_download_policy_title">Download Policy</string>
+    <string name="preference_max_size_title">Maximal upload media sizey</string>
+    <string name="registration_signinup_msg">Signing up, please wait...</string>
+    <string name="registration_signoff_msg">Signing off, please wait...</string>
+    <string name="registration_validation_msg">Validating \"Validation code\", please wait...</string>
+    <string name="title_activity_addressbook">AddressbookActivity</string>
+    <string name="title_activity_api_settings">Settings</string>
+    <string name="title_activity_call_settings">Call Settings</string>
+    <string name="title_activity_calls">Call Service</string>
+    <string name="title_activity_chat_settings">Chat Settings</string>
+    <string name="title_activity_chats">Chat Service</string>
+    <string name="title_activity_cloud_storage">Cloud Storage Service</string>
+    <string name="title_activity_deviceaddressbook">DeviceAddressbookActivity</string>
+    <string name="title_activity_directory_address_book">DirectoryAddressBookActivity</string>
+    <string name="title_activity_group_chat">GroupChatActivity</string>
+    <string name="title_activity_group_creator">GroupCreatorActivity</string>
+    <string name="title_activity_group_settings">Group Details</string>
+    <string name="title_activity_kandy_group">KandyGroup</string>
+    <string name="title_activity_kandy_groups">Kandy Groups</string>
+    <string name="title_activity_location">Location Service</string>
+    <string name="title_activity_login">Access</string>
+    <string name="title_activity_multi_party_conference">Multi Party Conference</string>
+    <string name="title_activity_presence">Presence Service</string>
+    <string name="title_activity_push">Push Service</string>
+    <string name="title_activity_signup">Provisioning</string>
+    <string name="ui_dialog_cancel_button_label">Cancel</string>
+    <string name="ui_message_listview_item_message">Message:</string>
+    <string name="ui_message_listview_item_recipient">Sent To:</string>
+    <string name="ui_message_listview_item_sender">Received From:</string>
+    <style name="AppBaseTheme" parent="@android:style/Theme.Holo.Light">
+
+    </style>
+    <style name="multi_party_conference_action_button">
+    	<item name="android:layout_width">wrap_content</item>
+    	<item name="android:layout_height">40dp</item>
+        <item name="android:textSize">12sp</item>
+	        
+        
+    </style>
+</resources>

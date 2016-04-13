@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="kandy-1.6.195">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/kandy16195sample/libs/kandy-1.6.195.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
